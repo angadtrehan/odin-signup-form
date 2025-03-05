@@ -22,7 +22,7 @@
                     Welcome to the beginning of the rest of your life; it's going to be f***kin' awesome. 
                 </p>
             </div>
-            <form action="" method="get">
+            <form action="" method="post">
                 <fieldset>
                     <h4>
                         Let's do this!
@@ -30,36 +30,36 @@
                     <div class="row">
                         <div class="form-input">
                             <label for="first-name" class="first-name">First name</label>
-                            <input type="text" name="first-name" id="first-name" required>
+                            <input type="text" name="first-name" id="first-name" required placeholder="John">
                             <span class="validity"></span>
                         </div>
                         <div class="form-input">
                             <label for="last-name" class="last-name">Last name</label>
-                            <input type="text" name="last-name" id="last-name">
+                            <input type="text" name="last-name" id="last-name" placeholder="Doe">
                             <span class="validity"></span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-input">
                             <label for="email" class="email">Email</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required placeholder="john@example.com">
                             <span class="validity"></span>
                         </div>
                         <div class="form-input">
                             <label for="phone" class="phone">Phone number</label>
-                            <input type="tel" name="phone" id="phone" required>
+                            <input type="tel" name="phone" id="phone" placeholder="9000090000" pattern="^[0-9]*$">
                             <span class="validity"></span>
                         </div>
                     </div>  
                     <div class="row">
                         <div class="form-input">
                             <label for="pwd" class="pwd">Password</label>
-                            <input type="password" name="pwd" id="pwd">
+                            <input type="password" name="pwd" id="pwd" required placeholder=" ">
                             <span class="validity"></span>
                         </div>
                         <div class="form-input">
                             <label for="confirm-pwd" class="confirm-pwd">Confirm password</label>
-                            <input type="password" name="confirm-pwd" id="confirm-pwd">
+                            <input type="password" name="confirm-pwd" id="confirm-pwd" required placeholder=" ">
                             <span class="validity"></span>
                         </div>
                     </div>
